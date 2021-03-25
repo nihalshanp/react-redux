@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { buyCake } from "../redux";
 
-const CakeContainer = ({numOfCake, buyCake}) => {
+const CakeContainer = ({ numOfCake, buyCake }) => {
   return (
     <div>
       <h1>Number of Cakes - {numOfCake} </h1>
