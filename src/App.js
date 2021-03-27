@@ -8,12 +8,15 @@ import IceCreamContainer from "./components/IceCreamContainer";
 import NewCakeContainer from "./components/NewCakeContainer";
 import ItemContainer from "./components/itemContainer";
 import UserContainer from "./components/UserContainer";
+import PostContainer from "./components/PostContainer";
 
 function App() {
   return (
     <div className="App">
       <Provider store={store}>
-        <UserContainer/>
+        {/* <UserContainer/> */}
+        <h2>-----------------</h2>
+        <PostContainer/>
         {/* <ItemContainer cake />
         <ItemContainer />
         <CakeContainer />
